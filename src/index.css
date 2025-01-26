@@ -1,5 +1,11 @@
 @import "tailwindcss";
 
+@layer base {
+  body {
+    background-color: var(--color-very-light-gray);
+  }
+}
+
 @theme {
   /* Custom Breakpoints */
   --breakpoint-2xs: 375px;
