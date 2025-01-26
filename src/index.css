@@ -1,1 +1,32 @@
 @import "tailwindcss";
+
+@theme {
+  /* Custom Breakpoints */
+  --breakpoint-2xs: 375px;
+  --breakpoint-xs: 425px;
+  /* Custom Colors */
+  --color-bright-orange: hsl(31, 77%, 52%);
+  --color-dark-cyan: hsl(184, 100%, 22%);
+  --color-very-dark-cyan: hsl(179, 100%, 13%);
+  --color-transparent-white: hsla(0, 0%, 100%, 0.75);
+  --color-very-light-gray: hsl(0, 0%, 95%);
+  /* Custom Fonts */
+  --font-lexend: "Lexend Deca", "ui-sans-serif", "system-ui", "sans-serif";
+  --font-big-shoulder: "Big Shoulders Display", "ui-sans-serif", "system-ui", "sans-serif";
+}
+
+@font-face {
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./assets/fonts/LexendDeca-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Big Shoulders Display";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("./assets/fonts/BigShouldersDisplay-Bold.woff2") format("woff2");
+}
