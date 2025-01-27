@@ -3,6 +3,7 @@
 @layer base {
   body {
     background-color: var(--color-very-light-gray);
+    font-family: var(--font-lexend);
   }
 }
 
